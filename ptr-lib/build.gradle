@@ -20,8 +20,6 @@ android {
             resources.srcDirs = ['resources']
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
-            // aidl.srcDirs = ['src']
-            // renderscript.srcDirs = ['src']
         }
 
         androidTest.setRoot('tests')
@@ -30,4 +28,3 @@ android {
 
 dependencies {
 }
-apply from: './gradle-mvn-push.gradle'
